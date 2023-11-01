@@ -14,11 +14,10 @@ int main(int argc, char** argv) {
     printf("Voici le digit se trouvant a la position 0 : %d\n", getDigit(ip, 0));
     if (conform(ip)) {
         printf("L'adresse IP est conforme.\n");
+        printf("Maintenant voyons de quelle classe est votre adressse ip : %s \n", classeChar(ip));
     } else {
         printf("L'adresse IP n'est pas conforme.\n");
     }
-
-    printf("Maintenant voyons de quelle classe est votre adressse ip : %s \n", classeChar(ip));
     
     return 0;
 }
