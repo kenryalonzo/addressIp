@@ -15,9 +15,8 @@ int main(int argc, char** argv) {
     if (conform(ip)) {
         printf("L'adresse IP est conforme.\n");
         printf("Maintenant voyons de quelle classe est votre adressse ip : %s \n", classeChar(ip));
-    } else {
+    } else 
         printf("L'adresse IP n'est pas conforme.\n");
-    }
     
     return 0;
 }
